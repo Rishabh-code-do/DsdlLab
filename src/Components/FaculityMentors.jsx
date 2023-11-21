@@ -12,14 +12,14 @@ const FaculityMentors = () => {
         <div className='cont1'>
         <img src={SK} alt="SK" className='img1' />
         <p className='para'>Dr. Sushil Kumar<br></br>
-        Associate Professor Department of Computer Science & Engineering<br></br>
+        Associate Professor<br></br> Department of Computer Science & Engineering<br></br>
         <span className='email'>Email Id :- sushil.kumar@kiet.edu</span></p>
         </div>
         <div className='cont1'>
         <img src={GP} alt="GP" className='img1'/>
         <p className='para'>
         Mr. Gaurav Parashar<br></br>
-        Assistant Professor Department of Computer Science & Engineering<br></br>
+        Assistant Professor<br></br> Department of Computer Science & Engineering<br></br>
         <span className='email'>Email Id :- gaurav.parashar@kiet.edu</span>
         </p>
         </div>

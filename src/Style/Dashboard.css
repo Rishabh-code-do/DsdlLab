@@ -9,9 +9,8 @@
 
 @media screen and (max-width: 480px) {
     .img{
-        top:600px;
-        height: 540px;
-        width: 340px;
-        margin-left: 25px;
+        top:550px;
+        height: 580px;
+        width: 390px;
     }
 }
