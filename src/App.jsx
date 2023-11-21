@@ -7,6 +7,7 @@ import Footer from './Components/Footer';
 import Hero from './Components/Hero';
 import "./Style/Navbar.css"
 import Download from './Components/Download'
+import Founder from "./Components/Founder";
 
 
 
@@ -30,6 +31,7 @@ function App() {
        <a id="Dashboard"><Hero />
         <Dashboard /></a>
         <a id="Facility"><Facility /></a>
+        <Founder/>
         <a id="Mentors"><FaculityMentors /></a>
         <a id="faqs"><FAQs /></a>
        <Footer />
