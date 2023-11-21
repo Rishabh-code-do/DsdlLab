@@ -14,8 +14,8 @@ const Hero = () => {
         <button className='Button'><Download/></button>
        </div>
        <br></br>
-       <br></br>
-       <br></br>
+       <br className='none'></br>
+       <br className='none'></br>
        <br className='none'></br>
        <br className='none'></br>
        <br className='none'></br>
