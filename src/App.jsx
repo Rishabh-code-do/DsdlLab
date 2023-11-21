@@ -16,11 +16,11 @@ function App() {
        <div className='nav'>
         <h1>DSDL<span className='lab'>LAB</span></h1>
          <div className='nav1'>
-            <a href="#Dashboard">Dashboard</a>
-            <a href="#Facility">Facility</a>
-            <a href="#Mentors">Mentors</a>
-            <a href="#faqs">FAQs</a>
-            <Download/>
+            <a href="#Dashboard" className="res">Dashboard</a>
+            <a href="#Facility" className="res">Facility</a>
+            <a href="#Mentors" className="res">Mentors</a>
+            <a href="#faqs" className="res">FAQs</a>
+            <div className="res"><Download/></div>
          </div>
          <div className='button'>
             <button className='Button1'>Sign In</button>

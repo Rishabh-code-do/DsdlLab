@@ -5,7 +5,7 @@
     border-bottom: 2px solid #9470f3;
     padding: 20px;
     border-radius: 20px;
-    background-image: linear-gradient(black, #41219b);
+    background-image: linear-gradient(black, #151517);
 }
 .fac{
     height: 400px;
@@ -29,4 +29,35 @@
     margin: 40px;
     width: 100px;
     text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    .facility{
+        margin-top: 200px;
+        height: 1220px;
+    }
+
+    .fac{
+        margin-top: 320px;
+        flex-direction: column;
+    }
+
+    img{
+        width: 70px;
+        height: 70px;
+    }
+    .cont{
+        align-items: center;
+    }
+
+    .heading{
+        font-size: 16px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .chatbot{
+        width: 200px;
+        height: 200px;
+    }
 }

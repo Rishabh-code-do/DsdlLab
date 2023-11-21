@@ -29,7 +29,7 @@ const Facility = () => {
         <img src={Cpu} alt="PROCESSOR" />
         <p>Intel® Xeon® Gold 6145Processor</p>
         </div>
-        <img src={Chatbot} alt="CHATBOT" />
+        <img src={Chatbot} alt="CHATBOT" className='chatbot'/>
      </div>
     </div>
   )

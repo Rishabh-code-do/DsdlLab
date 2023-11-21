@@ -6,3 +6,12 @@
     z-index: 10;
     top: 600px;
 }
+
+@media screen and (max-width: 480px) {
+    .img{
+        top:600px;
+        height: 540px;
+        width: 340px;
+        margin-left: 25px;
+    }
+}

@@ -9,18 +9,18 @@ const FaculityMentors = () => {
     <div className='fm'>
     <h4>Our Faculty Mentors</h4>
     <div className='mentor'>
-        <div className='cont'>
-        <img src={SK} alt="SK" />
+        <div className='cont1'>
+        <img src={SK} alt="SK" className='img1' />
         <p className='para'>Dr. Sushil Kumar<br></br>
         Associate Professor Department of Computer Science & Engineering<br></br>
-        Email Id :- sushil.kumar@kiet.edu</p>
+        <span className='email'>Email Id :- sushil.kumar@kiet.edu</span></p>
         </div>
-        <div className='cont'>
-        <img src={GP} alt="GP" />
+        <div className='cont1'>
+        <img src={GP} alt="GP" className='img1'/>
         <p className='para'>
         Mr. Gaurav Parashar<br></br>
         Assistant Professor Department of Computer Science & Engineering<br></br>
-        Email Id :- gaurav.parashar@kiet.edu
+        <span className='email'>Email Id :- gaurav.parashar@kiet.edu</span>
         </p>
         </div>
     </div>
