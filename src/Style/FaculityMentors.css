@@ -1,0 +1,101 @@
+.fm{
+        height: fit-content;
+        background-image: linear-gradient(black, #41219b);
+        color: white;
+        margin: 50px;
+        padding: 50px;
+        padding-left: 200px;
+        padding-right: 250px;
+        border-radius: 25px;
+        border-top: 2px solid #9470f3;
+        border-bottom: 2px solid #9470f3;
+        font-weight: 600;
+        text-align: center;
+}
+
+.mentor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img{
+    object-fit: contain;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.stage{
+    height: 480px;
+    background-image: linear-gradient(black, #41219b);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;   
+    color: white;
+    margin: 50px;
+    border-radius: 25px;
+    border-top: 2px solid #9470f3;
+    border-bottom: 2px solid #9470f3;
+    padding: 50px;
+}
+
+.stg1{
+    background-image: linear-gradient(black, #41219b);
+    margin-left: 50px;
+    border-top:2px solid #9470f3;
+    border-bottom:2px solid #9470f3;
+    border-radius: 25px;
+    width: 450px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+.stg2{
+    background-image: linear-gradient(black, #41219b);
+    margin-right: 50px;
+    border-top:2px solid #9470f3;
+    border-bottom:2px solid #9470f3;
+    border-radius: 25px;
+    width: 450px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;  
+    color: white; 
+    text-align: center;
+}
+
+.stages1{
+    margin-top: 40px;
+    border-radius: 25px;
+    background: linear-gradient(90.38deg, #00FFF0 0.24%, rgba(0, 91, 85, 0.57) 99.58%);
+    width: 170px;
+    align-self: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.stages2{
+    margin-top: 40px;
+    border-radius: 25px;
+    background: linear-gradient(90.38deg, #03FB75 0.18%, rgba(0, 91, 85, 0.57) 99.52%);
+    width: 170px;
+    align-self: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.para{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 10px;
+}

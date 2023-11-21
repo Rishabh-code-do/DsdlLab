@@ -1,0 +1,26 @@
+.footer{
+    background-image: linear-gradient(black, #1c1926);
+    color: white;
+    padding: 50px;
+    padding-bottom: 0px;
+}
+
+.ft1{
+text-align: center;
+color: white;
+font-weight: 800;
+font-size: large;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ft2{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    } 
+    span{
+    margin: 5px;
+    color: grey;
+    }

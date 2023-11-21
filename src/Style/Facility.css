@@ -1,0 +1,32 @@
+.facility{
+    margin: 50px;
+    margin-top: 550px;
+    border-top: 2px solid #9470f3;
+    border-bottom: 2px solid #9470f3;
+    padding: 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(black, #41219b);
+}
+.fac{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+    color: white;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+
+.cont{
+    margin: 40px;
+    width: 100px;
+    text-align: center;
+}

@@ -1,0 +1,46 @@
+.hero{
+    height: auto;
+    margin: 20px 0 20px 0;
+    background-image: linear-gradient(black, #41219b);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    
+}
+
+.Button{
+    background-color: black;
+    border: 1px purple solid;
+    color: grey;
+    padding: 10px;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+
+.font1{
+    line-height: 91.2px;
+    font-size: 76px;
+    font-weight: 800;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.font2{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color:aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.font3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
