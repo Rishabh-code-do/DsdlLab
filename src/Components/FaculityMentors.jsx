@@ -2,7 +2,6 @@ import React from 'react'
 import "../Style/FaculityMentors.css"
 import SK from "../Assests/SK.png"
 import GP from "../Assests/GP.png"
-import { colors } from '@mui/material'
 
 const FaculityMentors = () => {
   return (
