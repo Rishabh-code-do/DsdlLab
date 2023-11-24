@@ -25,6 +25,7 @@
 
 img{
     object-fit: contain;
+    border-radius: 75px;
 }
 
 .cont1{

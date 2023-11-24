@@ -1,6 +1,5 @@
 import React from 'react'
 import "../Style/FaculityMentors.css"
-import SK from "../Assests/SK.png"
 import VS from "../Assests/C02FCFB7-F08A-4237-BFFA-1732FE34608F.jpeg"
 function Founder() {
   return (

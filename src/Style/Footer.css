@@ -20,7 +20,34 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     justify-content: space-between;
     color: white;
     } 
-    span{
+    
+span{
     margin: 5px;
     color: grey;
+}
+
+
+.handles{
+      text-align: center;
+}
+
+.handles a {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+h6{
+    text-align: center;
+}
+    @media screen and (max-width: 480px) {
+        .footer{
+            padding: 20px;
+            padding-bottom: 0px;
+        }
+        .values{
+            display: none;
+        }
+        .ft2{
+            margin-top: 50px;
+        }
     }

@@ -2,6 +2,7 @@ import React from 'react'
 import "../Style/FaculityMentors.css"
 import SK from "../Assests/SK.png"
 import GP from "../Assests/GP.png"
+import { colors } from '@mui/material'
 
 const FaculityMentors = () => {
   return (
@@ -13,7 +14,9 @@ const FaculityMentors = () => {
         <img src={SK} alt="SK" className='img1' />
         <p className='para'>Dr. Sushil Kumar<br></br>
         Associate Professor<br></br> Department of Computer Science & Engineering<br></br>
-        <span className='email'>Email Id :- sushil.kumar@kiet.edu</span></p>
+        <span className='email'>Email Id :- sushil.kumar@kiet.edu</span>
+        <a href='https://scholar.google.com/citations?user=j6EVt4YAAAAJ&hl=en' style={{'color':'#9470f3'}}>Google Scholar</a>
+        </p>
         </div>
         <div className='cont1'>
         <img src={GP} alt="GP" className='img1'/>
@@ -21,6 +24,7 @@ const FaculityMentors = () => {
         Mr. Gaurav Parashar<br></br>
         Assistant Professor<br></br> Department of Computer Science & Engineering<br></br>
         <span className='email'>Email Id :- gaurav.parashar@kiet.edu</span>
+        <a href='https://scholar.google.com/citations?user=2dr_e6sAAAAJ&hl=en' style={{'color':'#9470f3'}}>Google Scholar</a>
         </p>
         </div>
     </div>
@@ -29,7 +33,7 @@ const FaculityMentors = () => {
         <div className='stg1'>
         <div className='stages1'>Stage 1</div>
         <h2>Objective</h2>
-        <p>This document lays out the policy for the operation of the supercomputer system Access that maintained and operated by the DSDL CLUB and for selecting projects</p>
+        <p>This document lays out the policy for the operation of the supercomputer system Access that is maintained and operated by the DSDL CLUB and for selecting projects</p>
         </div>
         <div className='stg2'>
         <div className='stages2'>Stage 2</div>

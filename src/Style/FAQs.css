@@ -30,7 +30,12 @@
 
 @media screen and (max-width: 480px) {
         .faq{
-                display: none;
+               margin: 20px; 
+               padding-left: 5px;
+               padding-right: 5px;
+        }
+        .btn12{
+                font-size: 16px;
         }
 }
 
